@@ -1,6 +1,6 @@
-# Defensive Report
+# **Defensive Report**
 
-## Table of Contents
+## **__Table of Contents__**
 
 * Network Topology
 * Description of Targets
@@ -9,49 +9,49 @@
 * Suggestions for Going Further
 
 
-### Network Topology
+### **__Network Topology:__**
 ---------------------
 
 The following machines were identified on the network:
 
-### Azure VM
+### __Azure VM__:
 
 Operating System: Windows
 Purpose: Hosts the to Other VMs
 IP Address: 192.168.1.1 (10.0.0.27)
 
-### ELK VM
+### __ELK VM__:
 
 Operating System: Linux
 Purpose: Used to view created alerts and reports from targets
 IP Address: 192.168.1.100
 
-### Kali VM
+### __Kali VM__:
 
 Operating System: Linux (Kali)
 Purpose: Used to attack the targets on the network
 IP Address: 192.168.1.90
 
-### Target 1 VM
+### __Target 1 VM__:
 
 Operating System: Linux
 Purpose: Used to host the vulnerable wordpress server for us to attack
 IP Address: 192.168.1.110
 
-### Target 2 VM
+### __Target 2 VM__:
 
 Operating System: Linux
 Purpose: Optional Attack Target
 IP Address: 192.168.1.115
 
-### Capstone VM
+### __Capstone VM__:
 
 Operating System: Linux
 Purpose: Used to test alerts and log gathering from the ELK machine
 IP Address: 192.168.1.105
 
 
-### Description of Targets:
+### **__Description of Targets:__**
 ------------------------------
 
 The target of this attack was: Target 1 (192.168.1.110).
@@ -60,7 +60,7 @@ Target 1 is an Apache web server and has SSH enabled, so ports 80 and 22 are pos
 Monitoring the Targets
 Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below:
 
-#### Excessive HTTP Errors:
+### __Excessive HTTP Errors__:
 
 Excessive HTTP Errors is implemented as follows:
 
@@ -73,7 +73,7 @@ Vulnerability Mitigated: Brute Forces
 Reliability: Medium to High depending on size of company
 
 
-#### HTTP Request Size Monitor
+### __HTTP Request Size Monitor__:
 
 HTTP Request Size Monitor is implemented as follows:
 
@@ -86,7 +86,7 @@ Vulnerability Mitigated: DoS Attacks
 Reliability: High
 
 
-#### CPU Usage Monitor
+### __CPU Usage Monitor__:
 
 CPU Usage Monitor is implemented as follows:
 
