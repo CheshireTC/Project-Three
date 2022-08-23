@@ -63,36 +63,36 @@ Traffic to these services should be carefully monitored. To this end, we have im
 
 Excessive HTTP Errors is implemented as follows:
 
-Metric: Top 5 http response status codes
+_Metric_: Top 5 http response status codes
 
-Threshold: count of 400 over 5 minutes
+_Threshold_: count of 400 over 5 minutes
 
-Vulnerability Mitigated: Brute Forces
+_Vulnerability Mitigated_: Brute Forces
 
-Reliability: Medium to High depending on size of company
+_Reliability_: Medium to High depending on size of company
 
 
 ### _HTTP Request Size Monitor_:
 
 HTTP Request Size Monitor is implemented as follows:
 
-Metric: _Total of all http request bytes on all documents
+_Metric_: Total of all http request bytes on all documents
 
-Threshold: 3500 bytes for the last minute
+_Threshold_: 3500 bytes for the last minute
 
-Vulnerability Mitigated: DoS Attacks
+_Vulnerability Mitigated_: DoS Attacks
 
-Reliability: High
+_Reliability_: High
 
 
 ### _CPU Usage Monitor_:
 
 CPU Usage Monitor is implemented as follows:
 
-Metric: CPU Usage percentage on all documents
+_Metric_: CPU Usage percentage on all documents
 
-Threshold: Over 0.5 for the last 5 minutes.
+_Threshold_: Over 0.5 for the last 5 minutes.
 
-Vulnerability Mitigated: Malicious Script
+_Vulnerability Mitigated_: Malicious Script
 
-Reliability: Low
+_Reliability_: Low
