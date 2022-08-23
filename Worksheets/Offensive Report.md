@@ -23,14 +23,14 @@ The following vulnerabilities were identified on target 1:
 
 ![Nmap Scan](../Images/RedTeam/NmapScan.PNG)
 
-## Exploitation
+## **_Exploitation_**
 The Red Team was able to penetrate Target 1 and retrieve the following confidential data:
 
 ### flag1.txt: _b9bbcb33e11b80be759c4e844862482d_
 
 Exploit Used:
 
-Derby and Recon
+_Derby and Recon_
 
 ### flag2.txt: _fc3fd58dcdad9ab23faca6e9a36e581c_
 
