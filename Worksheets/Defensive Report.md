@@ -10,7 +10,6 @@
 
 
 ## **_Network Topology:_**
----------------------
 
 The following machines were identified on the network:
 
@@ -22,33 +21,33 @@ IP Address: 192.168.1.1 (10.0.0.27)
 
 ### _ELK VM_:
 
-..* Operating System: Linux
-..* Purpose: Used to view created alerts and reports from targets
-..* IP Address: 192.168.1.100
+* Operating System: Linux
+* Purpose: Used to view created alerts and reports from targets
+* IP Address: 192.168.1.100
 
 ### _Kali VM_:
 
-..* Operating System: Linux (Kali)
-..* Purpose: Used to attack the targets on the network
-..* IP Address: 192.168.1.90
+* Operating System: Linux (Kali)
+* Purpose: Used to attack the targets on the network
+* IP Address: 192.168.1.90
 
 ### _Target 1 VM_:
 
-..* Operating System: Linux
-..* Purpose: Used to host the vulnerable wordpress server for us to attack
-..* IP Address: 192.168.1.110
+* Operating System: Linux
+* Purpose: Used to host the vulnerable wordpress server for us to attack
+* IP Address: 192.168.1.110
 
 ### _Target 2 VM_:
 
-..* Operating System: Linux
-..* Purpose: Optional Attack Target
-..* IP Address: 192.168.1.115
+* Operating System: Linux
+* Purpose: Optional Attack Target
+* IP Address: 192.168.1.115
 
 ### _Capstone VM_:
 
-..* Operating System: Linux
-..* Purpose: Used to test alerts and log gathering from the ELK machine
-..* IP Address: 192.168.1.105
+* Operating System: Linux
+* Purpose: Used to test alerts and log gathering from the ELK machine
+* IP Address: 192.168.1.105
 
 
 ## **_Description of Targets:_**
