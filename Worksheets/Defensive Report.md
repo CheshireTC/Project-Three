@@ -71,7 +71,7 @@ _Vulnerability Mitigated_: Brute Forces
 
 _Reliability_: Medium to High depending on size of company
 
-![Excessive HTTP Errors](Main/Images/BlueTeam/ExcessiveHTTPErrors.PNG)
+![Excessive HTTP Errors](../Images/BlueTeam/ExcessiveHTTPErrors.PNG)
 
 
 ### _HTTP Request Size Monitor_:
@@ -86,7 +86,7 @@ _Vulnerability Mitigated_: DoS Attacks
 
 _Reliability_: High
 
-![HTTP Request Size Monitor](Main/Images/BlueTeam/HTTPRequestSizeMonitor.PNG)
+![HTTP Request Size Monitor](../Images/BlueTeam/HTTPRequestSizeMonitor.PNG)
 
 
 ### _CPU Usage Monitor_:
@@ -101,4 +101,4 @@ _Vulnerability Mitigated_: Malicious Script
 
 _Reliability_: Low
 
-![CPU Usage Monitor](Main/Images/BlueTeam/CPUUsageMonitor.PNG)
+![CPU Usage Monitor](../Images/BlueTeam/CPUUsageMonitor.PNG)
