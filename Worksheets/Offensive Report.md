@@ -26,13 +26,13 @@ The following vulnerabilities were identified on target 1:
 ## Exploitation
 The Red Team was able to penetrate Target 1 and retrieve the following confidential data:
 
-### flag1.txt: b9bbcb33e11b80be759c4e844862482d
+### flag1.txt: _b9bbcb33e11b80be759c4e844862482d_
 
 Exploit Used:
 
 Derby and Recon
 
-### flag2.txt: fc3fd58dcdad9ab23faca6e9a36e581c
+### flag2.txt: _fc3fd58dcdad9ab23faca6e9a36e581c_
 
 Exploit Used:
 
@@ -42,7 +42,7 @@ ssh michael@192.168.1.110
 
 password: michael
 
-### flag3.txt: afc01ab56b50591e7dccf93122770cd2
+### flag3.txt: _afc01ab56b50591e7dccf93122770cd2_
 
 Exploit Used:
 
@@ -54,7 +54,7 @@ password: pink84
 
 HTML Password Hash Disclosure (CVE-2019-15653)(High)
 
-### flag4.txt: 715dea6c055b9fe3337544932f2941ce 
+### flag4.txt: _715dea6c055b9fe3337544932f2941ce_
 
 Exploit Used:
 
